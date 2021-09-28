@@ -9,6 +9,22 @@ img{
     width: 600px;
 }
 
+.mid-logo{
+    padding-right: 3rem;
+}
+
+.thghtext-2{
+    color: #28BCB2;
+}
+.thghttext{
+    padding-top: 8rem;
+    font-size: 1rem;
+    color: #333c66;
+    line-height: auto;
+    font-weight: 800;
+    letter-spacing: -.02em;
+    max-width: 18em
+}
 .resumetext{
 padding-top: 3rem;
 padding-bottom: 2rem;
@@ -177,6 +193,12 @@ h2{
     grid-template-columns: 1fr 1fr;
   }
   
+.blog-wrapper{
+    padding: 0 120px;
+display: grid;
+column-width: 50px;
+grid-template-columns: 1fr 1fr;
+}
 .no-bullets{
     
     list-style: none;
@@ -211,7 +233,40 @@ h3{
     font-size: 2.1rem;
     color: #333c66;
 }
+.img-blog{
+    max-width: 650px;
+    height: auto;
+    max-height: 350px ;
+    align-self: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+}
 
+.blog-title{
+    line-height: 70px;
+    font-size: 4rem;
+    color: #333c66;
+
+}
+.blog-middle-content {
+    padding-top: 8rem;
+    display: flex;
+    justify-content: center
+}
+.blog-small-list{
+    margin-bottom: 2rem;
+    display: inline-block;
+padding: .55em .55em;
+border-radius: .25rem;
+background-color: rgba(51,61,102,.07);
+line-height: 1;
+white-space: nowrap;
+font-weight: 400;
+font-size: 1rem;
+color: rgba(51,61,102,.8);
+}
 .skills-desc{
     font-size: 1.25rem;
     margin-bottom: 1.5rem;
