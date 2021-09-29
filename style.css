@@ -196,7 +196,6 @@ h2{
 .blog-wrapper{
     padding: 0 120px;
 display: grid;
-column-width: 50px;
 grid-template-columns: 1fr 1fr;
 }
 .no-bullets{
