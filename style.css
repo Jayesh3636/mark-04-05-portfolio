@@ -252,7 +252,7 @@ color: #28BCB2;
     justify-items: center;
     color: white;
 
-
+}
 
 
 
@@ -455,8 +455,7 @@ grid-template-columns: 1fr 1fr;
 
 .no-bullets-small{
     padding-left: 0;
-    padding-right: ;
-    list-style: none;
+        list-style: none;
     display: flex;
   
     
