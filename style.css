@@ -455,6 +455,7 @@ font-weight: 400;
         
             overflow-x: hidden;
     }
+    /* header */
         .navbar__links {
             z-index: 2;
     
@@ -499,4 +500,32 @@ font-weight: 400;
     
         .hamburger.active .bar:nth-child(3) {
             transform: translateY(-8px) rotate(-45deg);
-        }}
+        }
+    
+/* header over */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* footer */
+    .footer-container {
+        margin: 0 auto;
+        max-width: 1400px;
+        padding: 0 1.5rem;
+        display: block;
+        justify-content: space-between;
+    }
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    }
