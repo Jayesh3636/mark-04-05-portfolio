@@ -456,51 +456,52 @@ font-weight: 400;
             overflow-x: hidden;
     }
     /* header */
-        .navbar__links {
-            z-index: 2;
-    
-            position: fixed;
-            right: -125%;
-            top: 5rem;
-            flex-direction: column;
-            background-color: #03232b;
-            width: 100%;
-            border-radius: 10px;
-            text-align: left;
-            transition: 0.3s;
-            box-shadow:
-                0 10px 27px rgba(0, 0, 0, 0.05);
-        }
-    
-        .navbar__links-item {
-    
-            margin: 2.5rem 0;
-        }
-    
-        .navbar__links.active {
-            right: -45%;
-        }
-    
-        .navbar__links-item:not(:last-child) {
-            padding-right: 0rem;
-        }
-    
-        .hamburger {
-            display: block;
-            cursor: pointer;
-        }
-    
-        .hamburger.active .bar:nth-child(2) {
-            opacity: 0;
-        }
-    
-        .hamburger.active .bar:nth-child(1) {
-            transform: translateY(8px) rotate(45deg);
-        }
-    
-        .hamburger.active .bar:nth-child(3) {
-            transform: translateY(-8px) rotate(-45deg);
-        }
+    .navbar__links {
+        z-index: 2;
+
+        position: relative;
+        right: -125%;
+        top: 18rem;
+        flex-direction: column;
+        background-color: #03232b;
+        width: 148px;
+        border-radius: 10px;
+        text-align: left;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .navbar__links-item {
+
+        margin: 2.5rem 0;
+    }
+
+    .navbar__links.active {
+        right: -20%;
+    }
+
+    .navbar__links-item:not(:last-child) {
+        padding-right: 0rem;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
     
 /* header over */
     
