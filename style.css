@@ -528,6 +528,7 @@ font-weight: 400;
 .centered-block {
     margin: auto;
     align-items: center;
+    padding-left: 1.5rem;
 }
 .hero_label {
     display: block;
@@ -536,11 +537,11 @@ font-weight: 400;
     font-weight: 600;
     text-transform: uppercase;
     color: #8895bf;
-    margin-bottom: .75rem;
-    margin-left: 1.5rem;
+    
+    margin: initial;
 }
 .hero__title {
-    margin: auto;
+    
 
     font-size: 1.875rem;
     color: #333c66;
