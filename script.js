@@ -3,6 +3,7 @@ const navMenu = document.querySelector(".navbar__links");
 
 hamburger.addEventListener("click", mobileMenu);
 
+
 function mobileMenu() {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");

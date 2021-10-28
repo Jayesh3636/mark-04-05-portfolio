@@ -455,6 +455,11 @@ font-weight: 400;
         
             overflow-x: hidden;
     }
+    *,
+:after,
+:before {
+ box-sizing:inherit;
+}
     /* header */
     .navbar__links {
         z-index: 2;
@@ -469,7 +474,7 @@ font-weight: 400;
         text-align: left;
         transition: 0.3s;
         box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
+        -35px 30px 100px rgba(1, 26, 26, 0.38);
     }
 
     .navbar__links-item {
@@ -505,14 +510,54 @@ font-weight: 400;
     
 /* header over */
     
+.section {
+    position: relative;
+    padding-top: 6rem;
+}
+.middle-content {
+
+    display: block;
+    justify-content: center;
+}
     
     
-    
-    
-    
-    
-    
-    
+    .profile-photo {
+    display: none;
+    height: auto;
+}
+.centered-block {
+    margin: auto;
+    align-items: center;
+}
+.hero_label {
+    display: block;
+    font-size: 1rem;
+    letter-spacing: .03em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #8895bf;
+    margin-bottom: .75rem;
+    margin-left: 1.5rem;
+}
+.hero__title {
+    margin: auto;
+
+    font-size: 1.875rem;
+    color: #333c66;
+    line-height: 1.375;
+    font-weight: 700;
+    letter-spacing: -.02em;
+    max-width: 11em;
+}
+.abouttext {color:#575757;
+    font-size: 1.15rem;
+    max-width: 17em;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    text-align: left;
+}
     
     
     
@@ -524,6 +569,20 @@ font-weight: 400;
         padding: 0 1.5rem;
         display: block;
         justify-content: space-between;
+    }
+    .footer__section {
+        padding-top: 1em;
+        margin-bottom: 1em;
+        font-weight: 500;
+        font-size: 1.2em;
+        color: ivory;
+        margin-bottom: 0px;
+        display: block;
+    }
+    .footer__social-icon {
+        height: 24px;
+        color: white;
+        fill: #fff;
     }
     html, body {
         max-width: 100%;
