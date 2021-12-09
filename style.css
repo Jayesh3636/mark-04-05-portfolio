@@ -558,7 +558,7 @@
     }
 
     .hero:after {
-        content: "";
+        
         position: absolute;
         bottom: 124.1rem;
         left: 8px;
