@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0cm;
+}
+
 @media only screen and (max-width: 1920px) {
 
 
@@ -69,30 +76,34 @@
         padding: 0 1.5rem;
 
     }
-  
 
-  
 
-    body {  animation: fadeInAnimation ease 3s;
-        
+
+
+    body {
+        animation: fadeInAnimation ease 3s;
+        color: #333;
         margin: 0;
         width: 100%;
         min-width: 320px;
         background-color: #fff;
         font-family: Karla, sans-serif;
-        font-size: 1rem;
-        line-height: 1.5;
+        font-size: 14px;
+        line-height: 20px;
         font-weight: 400;
         -webkit-font-smoothing: antialiased
     }
+
     @keyframes fadeInAnimation {
         0% {
             opacity: 0;
         }
+
         100% {
             opacity: 1;
-         }
+        }
     }
+
     .header {
         padding-top: 1.5rem;
     }
@@ -124,7 +135,7 @@
         text-decoration: none;
         list-style: none;
         display: flex;
-
+font-size: 16px;
     }
 
     .navbar__links-item {
@@ -151,7 +162,7 @@
         border-radius: .25rem;
         background-color: rgba(40, 188, 178);
         font-weight: 600;
-        font-size: .975rem;
+        font-size: 18px;
         color: rgba(255, 255, 255);
         transition: ease-out .2s;
     }
@@ -285,7 +296,7 @@
 
     }
 
-   
+
 
 
     .abouttext {
@@ -318,12 +329,12 @@
         font-size: 16px;
         letter-spacing: 2px;
         text-transform: uppercase;
-        margin-bottom: -10px;
+        margin-bottom: 30px;
     }
 
     .h2-ts {
         margin-top: 0;
-        margin-bottom: 3rem;
+        margin-bottom: 0;
         font-family: 'Poppins';
         font-weight: 500;
 
@@ -381,6 +392,7 @@
     .nodejs-small-list:hover {
         background-color: rgba(219, 223, 233, 0.41);
         transform: translate(0px, -4px);
+        color: #1b7dd2;
     }
 
     .nodejs-small-list {
@@ -402,12 +414,13 @@
         padding: 35px;
         border-radius: 16px;
         background-color: rgb(255, 255, 255);
-        -webkit-transition: box-shadow 500ms ease;
-        transition: box-shadow 500ms ease;
+        -webkit-transition: all 400ms ease;
+        transition: all 500ms ease;
 
     }
 
     .skills_background:hover {
+        transform: translate(0px, -5px);
         box-shadow: 11px 11px 130px 70px rgba(206, 212, 224, 0.18);
     }
 
@@ -467,7 +480,7 @@
         margin-top: 0px;
         margin-bottom: 20px;
         font-family: Poppins;
-        color: var(--theme-color);
+        color: #233C6C;
         font-size: 64px;
         line-height: 1;
         font-weight: 700;
@@ -497,19 +510,19 @@
 
     .bg-block-blue {
         position: relative;
-        left: 0%;
-        top: -641px;
-        right: auto;
-        bottom: auto;
-        z-index: -1;
-        width: 50%;
-        height: 100%;
-        max-height: 100%;
-        min-height: 500px;
-        min-width: 400px;
-        border-top-right-radius: 55px;
-        border-bottom-right-radius: 55px;
-        background-color: #e6f1fb66;
+left: 0%;
+top: -944px;
+right: auto;
+bottom: auto;
+z-index: -1;
+width: 62.9%;
+height: 100%;
+max-height: 100%;
+min-height: 500px;
+min-width: 400px;
+border-top-right-radius: 55px;
+border-bottom-right-radius: 55px;
+background-color: #e6f1fb66;
     }
 
     /* footer starts-------------------------------------------------------------------------- */
@@ -598,7 +611,140 @@
     }
 
     /* hamburger menu */
+
+    .small-profile-tab {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: -15px;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .profile-picture {
+        overflow: hidden;
+        width: 65px;
+        height: 65px;
+        min-height: 65px;
+        min-width: 65px;
+        margin-right: 20px;
+        /* border: 4px; */
+        /* border-style: solid;      */
+        border-radius: 100px;
+        border-color: rgb(0, 0, 0);
+        background-color: #cdcaff;
+        box-shadow: 11px 33px 55px 0 rgba(85, 82, 124, 0.15);
+    }
+
+    .profile-name {
+        margin-top: 0;
+        margin-bottom: 4px;
+        color: #130f49;
+        font-size: 18px;
+        line-height: 1.4;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+    }
+
+    .detail {
+        color: #b4b2c5;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .about-social-wrapper {
+
+
+        margin-top: 100px;
+
+    }
+
+    .layout-grid {
+
+        display: grid;
+        grid-auto-columns: 1fr;
+
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        grid-template-rows: auto auto;
+        row-gap: 24px;
+        column-gap: 24px;
+    }
+
+    .abt-social-icon {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        min-height: 210px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 22px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #fff;
+        border-radius: 32px;
+        background-color: #fff;
+        box-shadow: 14px 14px 120px 0 rgba(139, 131, 131, 0.18);
+        -webkit-transition: all 350ms ease;
+        transition: all 350ms ease;
+    }
+    .abt-social-icon:hover {
+    border: 2px solid #f8979b;
+    transform: translate(0px,0px);
+    
 }
+    .social-logo {
+        width: 60px;
+        margin-bottom: 32px;
+    }
+
+
+    element {}
+
+    .social-name {
+
+        color: #03232b;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: -0.03em;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
