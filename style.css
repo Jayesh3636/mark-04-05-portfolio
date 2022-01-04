@@ -293,6 +293,7 @@ font-size: 16px;
 
     .social-icon {
         width: 35px;
+        height: 35px;
 
     }
 
@@ -523,6 +524,13 @@ min-width: 400px;
 border-top-right-radius: 55px;
 border-bottom-right-radius: 55px;
 background-color: #e6f1fb66;
+    }
+
+    .social-media-color{
+        color: #23c8bd;
+        fill: #20e9db;
+        
+
     }
 
     /* footer starts-------------------------------------------------------------------------- */
