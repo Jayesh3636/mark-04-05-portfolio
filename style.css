@@ -65,8 +65,9 @@ img {
         max-width: 1170px;
         margin-right: auto;
         margin-left: auto;
-
-
+        top: 125px;
+        
+        
     }
 
     .nav-container {
@@ -510,12 +511,12 @@ font-size: 16px;
     }
 
     .bg-block-blue {
-        position: relative;
+        position: absolute;
 left: 0%;
-top: -935px;
+
 right: auto;
 bottom: auto;
-z-index: -1;
+z-index: -11;
 width: 62.9%;
 height: 100%;
 max-height: 100%;
@@ -524,6 +525,13 @@ min-width: 400px;
 border-top-right-radius: 55px;
 border-bottom-right-radius: 55px;
 background-color: #e6f1fb66;
+
+}
+
+.about{
+    margin-top: 65px;
+    margin-bottom: 295px;
+}
     }
 
     .social-media-color{
